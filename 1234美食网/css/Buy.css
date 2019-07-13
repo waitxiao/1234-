@@ -1,0 +1,546 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;
+padding:0;
+list-style:none;
+outline:none;
+}
+body{
+ font-size: 12px;font-family: "微软雅黑";
+  background-attachment: fixed;  
+}
+.picture{
+	position:absolute;
+	left:25px;
+	top:10px;
+}
+
+.tuan{
+width:298px;
+height:320px;
+margin:410px 100px;
+padding:10px 12px;
+border:1px solid #666;
+}
+
+.pic{
+position:absolute;
+top:413px;
+left:100px;
+}
+ 
+#images{
+    width: 800px;  
+    height: 400px;  
+    overflow: hidden;  
+    position: relative;  
+    margin:0px 0px;}
+#images img {  
+    width: 296px;  
+    height: 180px;  
+    position: absolute;  
+    top: 0;  
+    left: -400px;  
+    z-index: 1;  
+    opacity: 1;  
+    transition: all linear 500ms;  
+    -o-transition: all linear 500ms;  
+    -moz-transition: all linear 500ms;  
+    -webkit-transition: all linear 500ms;  
+}  
+#images img:target {  
+    left: 0;  
+    z-index: 9;  
+    opacity: 1;  
+}  
+#images img:first-child {  
+    left: 0;  
+}  
+#slider {  
+    width: 600px;  
+    height: 10px;  
+	position:relative;
+    margin: -100px 200px;  
+}  
+#slider a {  
+    text-decoration: none;  
+    position:relative;
+    margin: 0px 0px; 
+}  
+#slider a:hover {  
+    background: #C6E4F2;  
+}  
+.tit{
+height:50px;
+line-height:20px;
+font-size:14px;
+}
+.tit a{
+color:#000;
+}
+.tit a span{
+color:#000;
+font-weight:bold;
+}
+.price{
+width:190px;
+height:30px;
+float:left;
+}
+.price span{
+font-family:"microsoft Yahei";
+font-size:24px;
+color:#FF7F00;
+}
+.btn{
+
+position:absolute;
+top:700px;
+left:330px;
+}
+
+
+
+
+
+
+
+.tuan1{
+width:298px;
+height:320px;
+margin:-296px 400px;
+padding:10px 12px;
+border:1px solid #666;
+}
+
+.pic1{
+position:absolute;
+top:410px;
+left:520px;
+}
+ 
+#images1{
+    width: 800px;  
+    height: 400px;  
+    overflow: hidden;  
+    position: relative;  
+    margin:0px 0px;}
+#images1 img {  
+    width: 296px;  
+    height: 180px;  
+    position: absolute;  
+    top: 0;  
+    left: -400px;  
+    z-index: 1;  
+    opacity: 1;  
+    transition: all linear 500ms;  
+    -o-transition: all linear 500ms;  
+    -moz-transition: all linear 500ms;  
+    -webkit-transition: all linear 500ms;  
+}  
+#images1 img:target {  
+    left: 0;  
+    z-index: 9;  
+    opacity: 1;  
+}  
+#images1 img:first-child {  
+    left: 0;  
+}  
+#slider1 {  
+    width: 600px;  
+    height: 10px;  
+	position:relative;
+    margin: -100px 200px;  
+}  
+#slider1 a {  
+    text-decoration: none;  
+    position:relative;
+    margin: 0px 0px; 
+}  
+#slider1 a:hover {  
+    background: #C6E4F2;  
+}  
+.tit1{
+height:50px;
+line-height:20px;
+font-size:14px;
+}
+.tit1 a{
+color:#000;
+}
+.tit1 a span{
+color:#000;
+font-weight:bold;
+}
+.price1{
+width:190px;
+height:30px;
+float:left;
+}
+.price1 span{
+font-family:"microsoft Yahei";
+font-size:24px;
+color:#FF7F00;
+}
+.btn1{
+
+position:absolute;
+top:700px;
+left:740px;
+}
+
+
+
+
+
+.tuan2{
+width:298px;
+height:320px;
+margin:-296px 410px;
+padding:10px 12px;
+border:1px solid #666;
+}
+
+.pic2{
+position:absolute;
+top:410px;
+left:950px;
+}
+ 
+#images2{
+    width: 800px;  
+    height: 400px;  
+    overflow: hidden;  
+    position: relative;  
+    margin:0px 0px;}
+#images2 img {  
+    width: 296px;  
+    height: 180px;  
+    position: absolute;  
+    top: 0;  
+    left: -400px;  
+    z-index: 1;  
+    opacity: 1;  
+    transition: all linear 500ms;  
+    -o-transition: all linear 500ms;  
+    -moz-transition: all linear 500ms;  
+    -webkit-transition: all linear 500ms;  
+}  
+#images2 img:target {  
+    left: 0;  
+    z-index: 9;  
+    opacity: 1;  
+}  
+#images2 img:first-child {  
+    left: 0;  
+}  
+#slider2 {  
+    width: 600px;  
+    height: 10px;  
+	position:relative;
+    margin: -100px 200px;  
+}  
+#slider2 a {  
+    text-decoration: none;  
+    position:relative;
+    margin: 0px 0px; 
+}  
+#slider2 a:hover {  
+    background: #C6E4F2;  
+}  
+.tit2{
+height:50px;
+line-height:20px;
+font-size:14px;
+}
+.tit2 a{
+color:#000;
+}
+.tit2 a span{
+color:#000;
+font-weight:bold;
+}
+.price2{
+width:190px;
+height:30px;
+float:left;
+}
+.price2 span{
+font-family:"microsoft Yahei";
+font-size:24px;
+color:#FF7F00;
+}
+.btn2{
+
+position:absolute;
+top:700px;
+left:1160px;
+}
+
+
+
+
+
+
+.tuan3{
+width:298px;
+height:320px;
+margin:150px -850px;
+padding:10px 12px;
+border:1px solid #666;
+}
+
+.pic3{
+position:absolute;
+top:860px;
+left:100px;
+}
+ 
+#images3{
+    width: 800px;  
+    height: 400px;  
+    overflow: hidden;  
+    position: relative;  
+    margin:0px 0px;}
+#images3 img {  
+    width: 296px;  
+    height: 180px;  
+    position: absolute;  
+    top: 0;  
+    left: -400px;  
+    z-index: 1;  
+    opacity: 1;  
+    transition: all linear 500ms;  
+    -o-transition: all linear 500ms;  
+    -moz-transition: all linear 500ms;  
+    -webkit-transition: all linear 500ms;  
+}  
+#images3 img:target {  
+    left: 0;  
+    z-index: 9;  
+    opacity: 1;  
+}  
+#images3 img:first-child {  
+    left: 0;  
+}  
+#slider3 {  
+    width: 600px;  
+    height: 10px;  
+	position:relative;
+    margin: -100px 200px;  
+}  
+#slider3 a {  
+    text-decoration: none;  
+    position:relative;
+    margin: 0px 0px; 
+}  
+#slider3 a:hover {  
+    background: #C6E4F2;  
+}  
+.tit3{
+height:50px;
+line-height:20px;
+font-size:14px;
+}
+.tit3 a{
+color:#000;
+}
+.tit3 a span{
+color:#000;
+font-weight:bold;
+}
+.price3{
+width:190px;
+height:30px;
+float:left;
+}
+.price3 span{
+font-family:"microsoft Yahei";
+font-size:24px;
+color:#FF7F00;
+}
+.btn3{
+
+position:absolute;
+top:1150px;
+left:330px;
+}
+
+
+
+
+
+
+.tuan4{
+width:298px;
+height:320px;
+margin:-296px 400px;
+padding:10px 12px;
+border:1px solid #666;
+}
+
+.pic4{
+position:absolute;
+top:860px;
+left:520px;
+}
+ 
+#images4{
+    width: 800px;  
+    height: 400px;  
+    overflow: hidden;  
+    position: relative;  
+    margin:0px 0px;}
+#images4 img {  
+    width: 296px;  
+    height: 180px;  
+    position: absolute;  
+    top: 0;  
+    left: -400px;  
+    z-index: 1;  
+    opacity: 1;  
+    transition: all linear 500ms;  
+    -o-transition: all linear 500ms;  
+    -moz-transition: all linear 500ms;  
+    -webkit-transition: all linear 500ms;  
+}  
+#images4 img:target {  
+    left: 0;  
+    z-index: 9;  
+    opacity: 1;  
+}  
+#images4 img:first-child {  
+    left: 0;  
+}  
+#slider4 {  
+    width: 600px;  
+    height: 10px;  
+	position:relative;
+    margin: -100px 200px;  
+}  
+#slider4 a {  
+    text-decoration: none;  
+    position:relative;
+    margin: 0px 0px; 
+}  
+#slider4 a:hover {  
+    background: #C6E4F2;  
+}  
+.tit4{
+height:50px;
+line-height:20px;
+font-size:14px;
+}
+.tit4 a{
+color:#000;
+}
+.tit4 a span{
+color:#000;
+font-weight:bold;
+}
+.price4{
+width:190px;
+height:30px;
+float:left;
+}
+.price4 span{
+font-family:"microsoft Yahei";
+font-size:24px;
+color:#FF7F00;
+}
+.btn4{
+
+position:absolute;
+top:1150px;
+left:740px;
+}
+
+
+
+
+
+
+.tuan5{
+width:298px;
+height:320px;
+margin:-296px 415px;
+padding:10px 12px;
+border:1px solid #666;
+}
+
+.pic5{
+position:absolute;
+top:860px;
+left:950px;
+}
+ 
+#images5{
+    width: 800px;  
+    height: 400px;  
+    overflow: hidden;  
+    position: relative;  
+    margin:0px 0px;}
+#images5 img {  
+    width: 296px;  
+    height: 180px;  
+    position: absolute;  
+    top: 0;  
+    left: -400px;  
+    z-index: 1;  
+    opacity: 1;  
+    transition: all linear 500ms;  
+    -o-transition: all linear 500ms;  
+    -moz-transition: all linear 500ms;  
+    -webkit-transition: all linear 500ms;  
+}  
+#images5 img:target {  
+    left: 0;  
+    z-index: 9;  
+    opacity: 1;  
+}  
+#images5 img:first-child {  
+    left: 0;  
+}  
+#slider5 {  
+    width: 600px;  
+    height: 10px;  
+	position:relative;
+    margin: -100px 200px;  
+}  
+#slider5 a {  
+    text-decoration: none;  
+    position:relative;
+    margin: 0px 0px; 
+}  
+#slider5 a:hover {  
+    background: #C6E4F2;  
+}  
+.tit5{
+height:50px;
+line-height:20px;
+font-size:14px;
+}
+.tit5 a{
+color:#000;
+
+}
+.tit5 a span{
+color:#000;
+font-weight:bold;
+}
+.price5{
+width:190px;
+height:30px;
+float:left;
+}
+.price5 span{
+font-family:"microsoft Yahei";
+font-size:24px;
+color:#FF7F00;
+}
+.btn5{
+
+position:absolute;
+top:1150px;
+left:1170px;
+}

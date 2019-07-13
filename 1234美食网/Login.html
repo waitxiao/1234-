@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	
+	<title>login</title>
+	<link rel="stylesheet" type="text/css" href="./css/Login.css">
+</head>
+<body>
+	<div class="box">
+	<div class="logo">
+	<img src="./image/icon_点赞.png"/>
+	</div>
+	<form action="#" method="post" onsubmit="return valForm()">
+	<div class="input">
+	<span class="username">
+	<img src="./image/用户.png">
+	<input type="text" value="" id="iptName">
+	<p id="tipName">用户名必须为8-12为字母或数字</p>
+	</span>
+	<span class="password">
+	<img src="./image/角色权限.png"/>
+	<input type="password" value="" id="iptPwd">
+	<p id="tipPwd">用户名必须为8-12为字母或数字</p>
+	</span>
+	</div>
+	<div class="button">
+	<span class="login">
+	<input type="submit" value="登录">
+	</span>
+	<span class="regit">
+	<button>注册</button>
+	</span>
+	</div>
+	</form>
+	<div class="other">
+	<img src="./image/微信社交.png" class="p1">
+	<img src="./image/qq社交.png" class="p1">
+	<img src="./image/微博社交.png" class="p1">
+	</div>
+	</div>
+	<script type="text/javascript" src="./js/Login.js"></script>
+	<script type="text/javascript">
+	var iptName=document.getElementById("iptName");
+	var iptPwd=document.getElementById("iptPwd");
+	var tipName=document.getElementById("tipName");
+	var tipPwd=document.getElementById("tipPwd");
+
+	function valForm(){
+		return valUsername()&&valPassword();
+	}
+
+	function valUsername(){
+		var p=/^\w\w{7,11}$/;
+		var r=p.test(iptName.value);
+		if(!r){
+			tipName.style.display="inline-block";
+			iptName.focus();
+			return false;
+		}
+		return true;
+	}
+
+	function valPassword(){
+		var p=/^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,10}$/;//6位数字
+			var r=p.test(iptPwd.value);//校验
+			if(!r){
+				tipPwd.style.display='inline-block';
+				iptPwd.focus();//获取焦点
+				return false;
+			}
+			return true;
+	}
+	</script>
+</body>
+</html>

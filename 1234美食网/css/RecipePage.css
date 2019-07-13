@@ -1,0 +1,201 @@
+*{list-style: none;outline: none;}
+/*全局控制*/
+body{font-family: "微软雅黑";text-align: center;}
+header{
+ width: 100%;
+ background: #eee;
+}
+header ul{
+ width: 1200px;
+ overflow: hidden;
+ margin: 0 auto;
+ background:  no-repeat left center;
+ background-size: 25px;
+ padding-left: 30px;
+ box-sizing: border-box;
+}
+header li{
+ height: 34px;
+ float: left;
+ line-height: 34px;
+ text-align: center;
+ padding: 0 25px;
+ color: cornflowerblue;
+}
+header li:hover{background: #ccc;}
+hr{
+	position:absolute;
+	left:300px;
+	top:430px;
+	text-align: center;
+}
+.two1{
+	position:absolute;
+	left:0px;
+	top:70px;
+	text-align: center;
+}
+a{
+	text-indent: 4 em;
+	display: inline-block;
+	font-size: 30px;
+	color: #5e2d00;
+	top:-48px;
+	left: 200px;
+}
+a:nth-child(1){text-indent: 0;}/*设置第一个链接的首行缩进为0*/
+a:link,a:visited{text-decoration: none;}
+a:hover{
+	text-decoration: underline;
+	color: #f03;
+}
+#box-video{
+	width:100%; 
+	height:100%;
+	position:absolute; 
+	overflow:hidden;
+	}
+/*插入视频*/	
+#box-video video{
+	min-width:100%; 
+	min-height:100%; 
+	max-width:4000%; 
+	max-height:4000%; 
+	position:absolute; 
+	top:50%; 
+	left:50%;
+    transform:translate(-50%,-50%)
+	}
+	.box{
+		position:absolute;
+		left:0px;
+		top:550px;
+		
+		min-width:100%; 
+	   min-height:100%; 
+	  max-width:4000%; 
+	   max-height:4000%; 
+	}
+dl{display: none;}
+.box{width:300px; text-align:center; font-szie:18px;}
+.box img {width:100%;}
+.wrap {
+	width: 180px;
+	height: 240px;
+	float: left;
+	margin-right: 10px;
+}
+.picture{
+	position:absolute;
+	left:25px;
+	top:55px;
+}
+.one1{
+	position:absolute;
+	left:350px;
+	top:450px;
+}
+.hongshao {
+	position:absolute;
+	left:250px;
+	top:550px;
+	width: 250px;
+	height: 250px;
+	background:url(../image/红烧排骨1.jpg);
+}
+.first{
+	position:absolute;
+	left:300px;
+	top:810px;
+}
+
+.nuomi {
+	position:absolute;
+	left:550px;
+	top:550px;
+	width: 250px;
+	height: 250px;
+	background:url(../image/%E5%89%81%E6%A4%92%E9%B1%BC%E5%A4%B41.jpg);
+}
+.second{
+	position:absolute;
+	left:600px;
+	top:810px;
+}
+
+.zongzi {
+	position:absolute;
+	left:850px;
+	top:550px;
+	width: 250px;
+	height: 250px;
+	background:url(../image/粽子4.jpg);
+}
+.third{
+	position:absolute;
+	left:950px;
+	top:810px;
+}
+.boluo {
+	position:absolute;
+	left:250px;
+	top:880px;
+	width: 250px;
+	height: 250px;
+	background:url(../image/%E8%8F%A0%E8%90%9D%E5%92%95%E5%99%9C%E8%82%891.jpg);
+}
+.forth{
+	position:absolute;
+	left:300px;
+	top:1140px;
+}
+.yutou {
+	position:absolute;
+	left:550px;
+	top:880px;
+	width: 250px;
+	height: 250px;
+	background:url(../image/%E5%89%81%E6%A4%92%E9%B1%BC%E5%A4%B41.jpg);
+}
+.fifth{
+	position:absolute;
+	left:620px;
+	top:1140px;
+}
+.doufu {
+	position:absolute;
+	left:850px;
+	top:880px;
+	width: 250px;
+	height: 250px;
+	background:url(../image/%E5%8D%83%E9%A1%B5%E8%B1%86%E8%85%901.jpg);
+}
+.sixth{
+	position:absolute;
+	left:950px;
+	top:1140px;
+}
+
+
+
+li{float: left;}
+
+:target{display: block;}/* 链接到的内容部分显示 */
+
+.box1{
+	 	position: absolute;
+	 	width:80%;
+	 	left:25%;
+	 	top:50%;
+	 	height:20px;
+		margin: 0 auto;
+		/* display: flex; */
+		/* justify-content: center;
+		align-items: center; */
+	 }
+	 .sistences{
+	 	text-align: center;
+	 	font-size: 35px;
+	 }
+
+

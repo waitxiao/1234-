@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	
+	<title>菠萝咕噜肉</title>
+	 <script src="./js/jquery-3.3.1.js"></script>
+	 <link rel="stylesheet" type="text/css" href="./css/SearchFood.css">
+	 <script type="text/javascript" src="./js/PineapplePork.js"></script>
+</head>
+<body>
+	<style type="text/css">
+	*{
+		margin: 0;
+		padding:0;
+	}
+	body{
+
+	}
+	.box{
+		width: 100%;
+		height:100%;
+		position: relative;
+		float:left;
+
+	}
+	.tab{
+		margin-top: 20px;
+		margin-left:10px;
+		z-index:0;
+		
+	}
+	.picture{
+		width:650px;
+		height:427px;
+		position: absolute;
+		left:40%;
+		top:10%;
+		z-index:2;
+	}
+	
+	
+	li{
+		
+		list-style: none;
+		width:350px;
+	}
+	.wr{
+	  font-family: "华文行楷";
+	  font-size:20px;
+
+	}
+	.snow{
+            background: url(./image/心.png);
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            z-index: 100;
+        }
+	
+ 
+	</style>
+</head>
+<body>
+	
+	<div class="box">
+	
+	<div class="tab">
+	<ul>
+	<li class="wr"><img src="./image/西瓜.png">菜名：西红柿鸡蛋炒饭</li>
+	<li class="wr"><img src="./image/西瓜.png">材料：米饭1碗、西红柿1个、鲜鸡蛋1个、青葱1棵</li>
+	<li class="wr"><img src="./image/西瓜.png">西红柿洗净切粒，青葱摘净后将葱白和葱叶分别切碎。鸡蛋用小碗打好备用；
+	</li>
+	<li class="wr"><img src="./image/西瓜.png">冷锅下熟猪油烧热，加葱白炝香。下米饭转中火慢炒；</li>
+	<li class="wr"><img src="./image/西瓜.png">待米饭加热过油后，浇上鸡蛋液，开大火快速翻炒，使蛋液均匀裹在米饭粒上；</li>
+	<li class="wr"><img src="./image/西瓜.png">依口味加入味汁、调味料，下西红柿粒、葱叶翻炒均匀出锅即可。</li>
+	
+	</ul>
+	</div>
+	<div class="picture">
+	<img src="./image/timg.jpg">
+	</div>
+	</div>
+	 
+		<script type="text/javascript">
+		console.log(123);
+		
+		var windowWidth = window.screen.width;
+	       var windowHeight = window.screen.height;
+	
+	       //创建雪花
+	       function createSnow(){
+	           var left = 0;
+	           var top = 0;
+	
+	           //定义一个初始化随机数,使雪花在屏幕中
+	           var left_random = Math.random() * windowWidth;
+	           var top_random = Math.random()* windowHeight;
+	           var div = document.createElement('div');
+	           div.className = 'snow';
+	           div.style.transform = 'scale('+(Math.random())+')';//随机缩放
+	
+	           document.body.appendChild(div);
+	
+	           //雪花飘落
+	           setInterval(function () {
+	
+	               div.style.left = left_random + left +'px';//布满整个屏幕,向下移动
+	               div.style.top = top_random + top +'px';//布满整个屏幕,向右移动
+	               left += 0.2;
+	               top += 0.2;
+	
+	               //如果雪花跑到屏幕外面了,让雪花重新返回屏幕顶部
+	               if(left_random + left >= windowWidth){
+	                   left_random = Math.random();
+	                   left = 0;
+	               }
+	
+	               if(top_random + top >= windowHeight){
+	                   top_random = Math.random();
+	                   top = 0;
+	               }
+	           },10);
+	
+	       }
+	       for(var i = 0 ; i < 200 ; i++){
+	           createSnow();
+	       }
+		</script>
+</body>
+</html>

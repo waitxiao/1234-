@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+*{list-style:none;outline:none;}
+body{font-family:"微软雅黑";text-align:center;}
+h2{
+	font-size:30px;
+	}
+.box0{
+	position:absolute;
+	  left:600px;
+	  top:380px;
+}
+ a{
+  display:inline-block;
+  font-size:25px;
+  color:#5E2D00;
+  top:-48px;
+  left:180px;
+  }
+  a:nth-child(1){text-indent:0;}
+  a:link,a:visited{text-decoration:none;}
+  a:hover{
+  text-decoration:underline;
+  color:#f03;
+  }
+  .left{
+	  position:absolute;
+	  left:300px;
+	  top:550px;
+  }
+.picture{
+	position:absolute;
+	left:25px;
+	top:10px;
+}
+
+.box1{
+	width:300px;
+	height:65px;
+	font-size:16px;
+	padding-right:10px;
+	background:#CCC;
+	box-sizing:content-box;
+	position:absolute;
+	left:750px;
+	top:550px;
+	border-radius:10px;
+	opacity::0.7;
+	}
+	.box2{
+		width:300px;
+		height:65px;
+		font-size:16px;
+		padding-right:10px;
+		background:#CCC;
+		box-sizing:content-box;
+		position:absolute;
+	    left:750px;
+	    top:630px;
+		border-radius:10px;
+		opacity:0.7;
+	}
+	.box3{
+		width:300px;
+		height:65px;
+		font-size:16px;
+		padding-right:10px;
+		background:#CCC;
+		box-sizing:content-box;
+		position:absolute;
+	left:750px;
+	top:710px;
+	border-radius:10px;
+	opacity:0.7;
+	}
+	.box4{
+	width:200px;
+	height:32px;
+	font-size:22px;
+	padding-right:10px;
+	background:#9CC;
+	box-sizing:content-box;
+	border-radius:10px;
+	position:absolute;
+	left:300px;
+	top:480px;
+	}
+  dd{
+position:relative;
+top:20px;
+  line-height:38px;
+  font-size:22px;
+  font-family:"宋体";
+  color:#333;
+  }
+  p{
+  font-size:22px;
+  font-family:"宋体";
+  color:#333; 
+  }
+  .word1{
+   position:relative;
+  top:800px;
+  line-height:38px;
+  font-size:24px;
+  font-family:"微软雅黑";
+  color:#333;}
+  .box8{
+		width:800px;
+		height:200px;
+		font-size:14px;
+		padding-right:10px;
+		background:#FFF;
+		opacity:0.5;
+		box-sizing:border-box;
+		position:absolute;
+		text-align:center;
+	    left:300px;
+	    top:1150px;
+		text-align:left;
+	}
+  dd:nth-child(odd){color:#BDA793;}
+  dd:nth-child(2) em{
+  color:#f03;
+  font-weight:bold;
+  font-style:normal;
+  }
+  dd:nth-child(3) em{
+  color:#5E2D00;
+  font-weight:bold;
+  font-style:normal;
+  }
+  :target{display:block;}
+
+
+

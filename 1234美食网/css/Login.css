@@ -1,0 +1,74 @@
+﻿*{
+	margin:0;
+	padding: 0;
+	
+}
+p{
+	color:black;
+	font-weight: bold;
+	font-size: 13px;
+	display: none;
+}
+
+body{
+   background-size: 100% 100%;
+   background:#FFE4B5;
+   /* z-index: 3; */
+}
+.snow{
+	width:20px;
+	height:20px;
+	border-radius: 50%;
+	background:white;
+	position: absolute;
+}
+.box{
+	display: flex;
+	justify-content:space-between;
+	flex-direction: column;
+	align-items: center;
+}
+
+.box .logo{
+	margin: 40px;
+	display: flex;
+	justify-content: center;
+}
+
+.username{
+	 margin: 30px; 
+     display: flex;
+     justify-content: center;
+}
+
+.password{
+	display: flex;
+	justify-content:center;
+}
+button{
+	width:50px;
+	height: 20px;
+}
+.button{
+	margin: 50px;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+.login{
+	margin-right: 50px;
+}
+.regit{
+	margin-right: -20px;
+}
+.other{
+	margin: -20px;
+	margin-right: -60px;
+	display: flex;
+	justify-content: center;
+}
+
+.p1{
+	margin-right: 10px;
+}
+

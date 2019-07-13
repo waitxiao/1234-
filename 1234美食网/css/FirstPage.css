@@ -1,0 +1,263 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;
+padding:0;
+list-style:none;
+outline:none;
+}
+body{
+ font-size: 12px;font-family: "微软雅黑";
+  background-attachment: fixed;  
+}
+
+header{
+ width: 100%;
+ background: #eee;
+}
+header ul{
+ width: 1200px;
+ overflow: hidden;
+ margin: 0 300px;
+ background: url(img/logo.png) no-repeat left center;
+ background-size: 40px;
+ padding-left: 30px;
+ box-sizing: border-box;
+ 
+}
+header li{
+ height: 34px;
+ float: left;
+ line-height: 34px;
+ text-align: center;
+ padding: 0 50px;
+ font-size:18px;
+}
+header li:hover{background: #ccc;}
+.picture{
+	width:1314;
+	height: 355px;
+    /* float: left; */
+	overflow: hidden;
+	position:absolute;
+	left:25px;
+	top:35px;
+	opacity:0.8;
+}
+
+.one{
+width:100%;
+height:100%;
+
+}
+.one .text input{
+width:500px;
+height:30px;
+margin-left:500px;
+margin-top:380px;}
+.one .btn {
+ width:100px;
+ height:30px;
+ position:relative;
+ top:-30px;
+ left:1020px;
+ }
+ .word{
+ 	font-family: "华文行楷";
+ 	font-size: 45px;
+ 	position: absolute;
+ 	left:45%;
+ 	top:80%;
+ }
+ .word a{
+ 	text-decoration: none;
+ }
+  .one ul{
+	 
+	 display:inline-block;
+	 font-size:14px;
+	 position:relative;
+	 top:-42px;
+	 left:580px;
+ }
+ 
+.one li{
+ font-size:16px;
+ float: left;
+ display:inline-block;
+  padding: 0 10px;
+}
+
+p span{
+	font-size:16px;
+	position:relative;
+	top:-20px;
+	left:500px;
+}
+.two{
+width:100%;
+height:100%;
+margin-left:0px;
+margin-top:124px;
+}
+.two ul{
+	font-size: 30px;
+	width: 200px;
+	display: inline-block;
+	margin-left: 150px;
+	position: absolute;
+	top: 300px;
+	left: -80px;
+}
+.two a{
+	  text-indent:1em;
+	  display:inline-block;
+	  font-size:22px;
+	  color:#5E2D00;
+ }
+ .box1{
+	width:250px;
+	height:32px;
+	font-size:20px;
+	text-align:center;
+	padding-right:10px;
+	background:#C39;
+	box-sizing:content-box;
+	border-radius:10px;
+	position:absolute;
+	left:-10px;
+	top:-30px;
+	opacity:0.8;
+	}
+	.box2{
+	width:250px;
+	height:32px;
+	font-size:20px;
+	text-align:center;
+	padding-right:10px;
+	background:#FF0;
+	box-sizing:content-box;
+	border-radius:10px;
+	position:absolute;
+	left:-10px;
+	top:20px;
+	opacity:0.8;
+	}
+	.box3{
+	width:250px;
+	height:32px;
+	font-size:20px;
+	text-align:center;
+	padding-right:10px;
+	background:#C9F;
+	box-sizing:content-box;
+	border-radius:10px;
+	position:absolute;
+	left:-10px;
+	top:70px;
+	opacity:0.8;
+	}
+	.box4{
+	width:250px;
+	height:32px;
+	font-size:20px;
+	text-align:center;
+	padding-right:10px;
+	background:#990;
+	box-sizing:content-box;
+	border-radius:10px;
+	position:absolute;
+	left:-10px;
+	top:120px;
+	opacity:0.8;
+	}
+	.box5{
+	width:250px;
+	height:32px;
+	font-size:20px;
+	text-align:center;
+	padding-right:10px;
+	background:#FF0;
+	box-sizing:content-box;
+	border-radius:10px;
+	position:absolute;
+	left:-10px;
+	top:170px;
+	opacity:0.8;
+	}
+	.box7{
+	width:250px;
+	height:100px;
+	line-height:50px; 
+	font-size:20px;
+	text-align:center;
+	padding-right:10px;
+	background:#0F9;
+	box-sizing:content-box;
+	border-radius:10px;
+	position:absolute;
+	left:-5px;
+	top:-250px;
+	opacity:0.8;
+	
+	}
+.xixi {
+
+position: absolute;
+
+top: 120%;
+
+left: 59%;
+
+-webkit-transform: translate(-50%, -50%);
+
+-moz-transform: translate(-50%, -50%);
+
+-ms-transform: translate(-50%, -50%);
+
+-o-transform: translate(-50%, -50%);
+
+transform: translate(-50%, -50%);
+
+}
+
+.bx_container{width:600px; height:400px; position:relative;}
+
+.bx_container ul li{width:600px; height:400px; line-height:364px; float:left; overflow:hidden; cursor:pointer; background:#FC3;text-align:center}
+
+.bx_container ul li img{width:600px; height:400px;}
+
+.bx_wrap .prev,.bx_wrap .next{width:27px; height:66px; outline-style:none;outline-width:0;position:absolute; top:160px; z-index:111;}
+
+.bx_wrap a.prev{background:url(../image/left.jpeg); left:-20px;opacity:0.7;border-radius:40px;}
+
+.bx_wrap a.next{background:url(../image/left.jpeg); right:-20px;opacity:0.7;border-radius:40px;}
+.box6{
+		width:300px;
+		height:500px;
+		font-size:16px;
+		padding-right:10px;
+		background:#FFF;
+		opacity:0.5;
+		box-sizing:border-box;
+		position:absolute;
+		text-align:center;
+	    left:80px;
+	    top:360px;
+		text-align:left;
+	}
+	
+	.box8{
+		width:800px;
+		height:200px;
+		font-size:14px;
+		padding-right:10px;
+		background:#FFF;
+		opacity:0.5;
+		box-sizing:border-box;
+		position:absolute;
+		text-align:center;
+	    left:250px;
+	    top:1000px;
+		text-align:left;
+	}

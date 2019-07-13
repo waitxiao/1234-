@@ -1,0 +1,189 @@
+@charset "utf-8";
+*{list-style:none;outline:none;}
+body{font-family:"微软雅黑";text-align:center;}
+h2{
+	font-size:30px}
+ a{
+  display:inline-block;
+  font-size:25px;
+  color:#5E2D00;
+  top:38px;
+  left:100px;
+  }
+  a:nth-child(1){text-indent:0;}
+  a:link,a:visited{text-decoration:none;}
+  a:hover{
+  text-decoration:underline;
+  color:#f03;
+  }
+  .first{
+	width:1314px;
+	height:355px;
+	overflow: hidden;
+	position:absolute;
+	left:0px;
+	top:25px;
+	  }
+.picture{
+	position:absolute;
+	left:100px;
+	top:580px;
+}
+.picture1{
+	position:absolute;
+	left:500px;
+	top:580px;
+}
+.picture2{
+	position:absolute;
+	left:900px;
+	top:580px;
+}
+.picture3{
+	position:absolute;
+	left:100px;
+	top:1050px;
+}
+.picture4{
+	position:absolute;
+	left:500px;
+	top:1050px;
+}
+.picture5{
+	position:absolute;
+	left:900px;
+	top:1050px;
+}
+
+.passage{
+	position:absolute;
+	left:30px;
+	top:900px;
+}
+.passage1{
+	position:absolute;
+	left:460px;
+	top:900px;
+}
+.passage2{
+	position:absolute;
+	left:860px;
+	top:900px;
+}
+.passage3{
+	position:absolute;
+	left:20px;
+	top:1370px;
+}
+.passage4{
+	position:absolute;
+	left:500px;
+	top:1370px;
+}
+.passage5{
+	position:absolute;
+	left:930px;
+	top:1370px;
+}
+.box1{
+	width:200px;
+	height:32px;
+	font-size:20px;
+	padding-right:10px;
+	background:#99F;
+	box-sizing:content-box;
+
+	position:absolute;
+	left:200px;
+	top:410px;
+	opacity:0.5;
+	}
+	.box2{
+		width:200px;
+		height:32px;
+		font-size:20px;
+		padding-right:10px;
+		background:#9CF;
+		box-sizing:border-box;
+		position:absolute;
+	left:400px;
+	top:410px;
+	opacity:0.5;
+	}
+	.box3{
+		width:200px;
+		height:32px;
+		font-size:20px;
+		padding-right:10px;
+		background:#C9F;
+		box-sizing:border-box;
+		position:absolute;
+	left:600px;
+	top:410px;
+	opacity:0.5;
+	}
+	.box4{
+		width:200px;
+		height:32px;
+		font-size:20px;
+		padding-right:10px;
+		background:#CCF;
+		box-sizing:border-box;
+		position:absolute;
+	left:800px;
+	top:410px;
+	opacity:0.5;
+	}
+	.box5{
+		width:200px;
+		height:32px;
+		font-size:20px;
+		padding-right:10px;
+		background:#FCF;
+		box-sizing:border-box;
+		position:absolute;
+	left:1000px;
+	top:410px;
+	opacity:0.5;
+	}/* CSS Document */
+.box6{
+		width:130px;
+		height:32px;
+		font-size:20px;
+		padding-right:10px;
+		background:#FCF;
+		box-sizing:border-box;
+		border-radius:10px;
+		position:absolute;
+	    left:100px;
+	    top:500px;
+		opacity:0.5;
+	}
+.box7{
+		width:130px;
+		height:32px;
+		font-size:20px;
+		padding-right:10px;
+		background:#CCF;
+		box-sizing:border-box;
+		border-radius:10px;
+		position:absolute;
+	    left:100px;
+	    top:970px;
+		opacity:0.5;
+	}
+
+    .box8{
+		width:800px;
+		height:200px;
+		font-size:16px;
+		padding-right:10px;
+		background:#FFF;
+		opacity:0.5;
+		box-sizing:border-box;
+		position:absolute;
+		text-align:center;
+	    left:150px;
+	    top:1450px;
+		text-align:left;
+	}
